@@ -1,0 +1,97 @@
+.nav {
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  line-height: 60px;
+  z-index: 100;
+}
+
+.btn {
+  width: 70%;
+  height: 35px;
+  background: #162938;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: 1em;
+  color: #ffffff;
+  font-weight: 5 00;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.row.clearfix {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.col-lg-12 {
+  grid-column: span 2;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn2 {
+  width: 100%;
+  padding: 10px;
+  background-color: #4a6685;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.info-box-2 {
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bg-blue-grey {
+  background-color: #607d8b;
+  color: white;
+}
+
+.bg-light-blue {
+  background-color: #03a9f4;
+  color: white;
+}
+
+.bg-purple {
+  background-color: #9c27b0;
+  color: white;
+}
+
+.bg-teal {
+  background-color: #009688;
+  color: white;
+}
+
+.bg-deep-orange {
+  background-color: #ff5722;
+  color: white;
+}
+
+.icon {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  flex-grow: 1;
+}
